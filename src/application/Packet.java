@@ -10,6 +10,15 @@ public class Packet {
 	 private int length;
 	 private String info;
 	 
+//	 public Packet(int number,double time) {
+//		 this.number = number;
+//		 this.time = time;
+//		 this.source = source;
+//		 this.destination = destination;
+//		 this.protocol = protocol;
+//		 this.length = length;
+//		 this.info = info;
+//	 }
 	 
 	public int getNumber() {
 		return number;

@@ -7,13 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CsvParser {
-	ArrayList<Packet> packets;
-	
+	ArrayList<Packet> packets= new ArrayList<Packet>();
 	public ArrayList<Packet> readCsv(String filePath) {
 		BufferedReader reader = null;
-
 		try {
-			List<Packet> packets = new ArrayList<Packet>();
+//			List<Packet> packets = new ArrayList<Packet>();
 			String line = "";
 			reader = new BufferedReader(new FileReader(filePath));
 			reader.readLine();
